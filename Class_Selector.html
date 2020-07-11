@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Type Selector</title>
+    <title>Class Selector</title>
     <style>
-       
-        th{
-            color: darksalmon;
+       .aic{
+           color: darksalmon;
         }
-        li{
-            color: royalblue  ;
+        .bcc, .iot{
+            color: royalblue;
         }
     </style>
 </head>
 <body>
-    <h1>Type Selector</h1>
+    <h1>Class Selector</h1>
     <p>PIAIC offers the following courses</p>
     <div>
-        <p>1) Artificial Intelligence</p>
+        <p class="aic">1) Artificial Intelligence</p>
     </div>
     <div>
-        <p>2) Blockchain</p>
+        <p class="bcc">2) Blockchain</p>
     </div>
     <div>
-        <p>3) Cloud Native Computing</p>
+        <p class="cnc">3) Cloud Native Computing</p>
     </div>
     <div>
-        <p>4) Internet of Things</p>
+        <p class="iot">4) Internet of Things</p>
     </div>
 
     <p>Bellow is the list of students</p>
@@ -43,10 +42,10 @@
                 <td>PIAIC001</td>
                 <td>
                     <ol>
-                        <li>Artificial Intelligence</li>
-                        <li>Blockchain</li>
-                        <li>Cloud Native Computing</li>
-                        <li>Internet of Things</li>
+                        <li class="aic">Artificial Intelligence</li>
+                        <li class="bcc">Blockchain</li>
+                        <li class="cnc">Cloud Native Computing</li>
+                        <li class="iot">Internet of Things</li>
                     </ol>
                 </td>
             </tr>
@@ -56,8 +55,8 @@
                 <td>PIAIC002</td>
                 <td>
                     <ol>
-                        <li>Artificial Intelligence</li>
-                        <li>Internet of Things</li>
+                        <li class="aic">Artificial Intelligence</li>
+                        <li class="iot">Internet of Things</li>
                     </ol>
                 </td>
             </tr>
@@ -67,8 +66,8 @@
                 <td>PIAIC003</td>
                 <td>
                     <ol>
-                        <li><p>Cloud Native Computing</p></li>
-                        <li><p>Internet of Things</p></li>
+                        <li class="cnc"><p>Cloud Native Computing</p></li>
+                        <li class="iot"><p>Internet of Things</p></li>
                     </ol>
                 </td>
             </tr>
@@ -78,7 +77,7 @@
                 <td>PIAIC004</td>
                 <td>
                     <Ol>
-                        <li>Artificial Intelligence</li>
+                        <li class="aic">Artificial Intelligence</li>
                     </Ol>
                 </td>
             </tr>
@@ -88,8 +87,8 @@
                 <td>PIAIC005</td>
                 <td>
                     <Ol>
-                        <li>BlockCHain</li>
-                        <li>Cloud Native Computing</li>
+                        <li class="bcc">BlockCHain</li>
+                        <li class="cnc">Cloud Native Computing</li>
                     </Ol>
                 </td>
             </tr>
